@@ -8,7 +8,7 @@
     "build": "webpack --mode production",
     "test": "jest",
     "coverage": "jest --coverage",
-    "lint": "eslint"
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
   "devDependencies": {
     "@babel/cli": "^7.17.6",
     "@babel/core": "^7.17.9",
+    "@babel/eslint-parser": "^7.17.0",
     "@babel/preset-env": "^7.16.11",
     "babel-jest": "^27.5.1",
     "eslint": "^8.13.0",
